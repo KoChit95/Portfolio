@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 0;
+    margin:0 ;
+}
+nav{
+    background-color: rgb(2, 2, 77);
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    padding: 0 154px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#name{
+    font-size: 25px;
+    font-weight: bold;
+}
+#nav-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+nav ul li{
+    margin: 10px;
+}
+#intro{
+    height: 100vh;
+    background-color: blue;
+    color: white;
+}
+.link{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding:10px 40%;
+}
+.about{
+    text-align:left;
+    padding: 0 0 30% 0;
+    background-image: url(./asset/D1.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-style: italic;
+    color:rgb(211, 192, 19);
+    font-size:larger;
+}
+#Skill{
+    background-color: blue;
+    margin: 0;
+    height: 30vh;
+    text-align:center ;
+    color: white;
+}
+table{
+    padding: 2% 38%;
+}
+tr,td,th{
+    padding: 10px;
+}
+h3{
+    margin: 0;
+}
+#contact{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+hr{
+    margin: 0;
+}#contact{
+    height: 50vh;
+    border-radius: 15px;
+}
